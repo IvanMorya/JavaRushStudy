@@ -19,16 +19,13 @@ public class Solution {
     }
 
     public static String factorial(int n) {
-        int firstNum = 1;
-        int factorial = 1;
-        if (n < 0 || n > 150) {
-            return "0";
-        } else {
-            while (firstNum <= n) {
-                factorial *= firstNum;
-                firstNum++;
-            }
-            return String.valueOf(factorial);
+        if (n < 0) return "0";
+        if (n == 0) return "1";
+        BigDecimal bd = new BigDecimal(1);
+        for (int i = 1; i <= n; i++) {
+            bd = bd.multiply(new BigDecimal(i));
         }
+
+        return bd.toString();
     }
 }
