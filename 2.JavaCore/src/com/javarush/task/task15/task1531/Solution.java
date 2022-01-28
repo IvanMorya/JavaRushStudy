@@ -12,7 +12,6 @@ import java.math.BigDecimal;
 public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
         int input = Integer.parseInt(reader.readLine());
         reader.close();
 
@@ -20,8 +19,16 @@ public class Solution {
     }
 
     public static String factorial(int n) {
-        //add your code here
-
-        return "";
+        int firstNum = 1;
+        int factorial = 1;
+        if (n < 0 || n > 150) {
+            return "0";
+        } else {
+            while (firstNum <= n) {
+                factorial *= firstNum;
+                firstNum++;
+            }
+            return String.valueOf(factorial);
+        }
     }
 }
