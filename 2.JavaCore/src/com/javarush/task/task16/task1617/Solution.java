@@ -5,13 +5,12 @@ package com.javarush.task.task16.task1617;
 */
 
 public class Solution {
-    public static volatile int numSeconds = 4;
+    public static volatile int numSeconds = 3;
 
     public static void main(String[] args) throws InterruptedException {
         RacingClock clock = new RacingClock();
         Thread.sleep(3500);
         clock.interrupt();
-
     }
 
     public static class RacingClock extends Thread {
@@ -20,21 +19,17 @@ public class Solution {
         }
 
         public void run() {
-            //add your code here - добавь код тут
-            int countTreadSleep = 0;
-            for (int i = numSeconds; i > 0; i--) {
-                System.out.print(numSeconds + " ");
-                numSeconds--;
-                try {
-                    Thread.sleep(1000);
-                    countTreadSleep++;
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+            try {
+                while (!isInterrupted() && numSeconds >= 0) {
+                    if (numSeconds == 0) {
+                        System.out.println("Марш!");
+                    } else {
+                        System.out.print(numSeconds + " ");
+                        Thread.sleep(1000);
+                    }
+                    numSeconds--;
                 }
-            }
-            if (countTreadSleep < 4) {
-                System.out.print("Марш!");
-            } else {
+            } catch (InterruptedException e) {
                 System.out.println("Прервано!");
             }
         }
