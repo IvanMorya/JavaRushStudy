@@ -12491,3 +12491,24 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2022-02-05 09:50:56 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
 2022-02-05 09:50:56 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
 2022-02-05 09:50:56 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-02-05 10:52:23 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-05 10:58:52 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-05 11:01:16 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-05 11:01:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-05 11:01:19 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-02-05 11:01:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-05 11:07:16 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-05 11:07:17 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-05 11:13:41 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-05 11:13:41 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-05 11:33:40 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-05 11:33:40 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-02-05 11:33:42 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-02-05 11:33:42 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Programming/openjfx-17.0.0.1_windows-x64_bin-sdk/JavaRushTasks/2.JavaCore/src/com/javarush/task/task16/task1621
+2022-02-05 11:43:49 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-05 11:43:50 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-05 11:43:53 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-02-05 11:44:07 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-05 11:44:07 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-05 11:44:10 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-02-05 11:44:11 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
