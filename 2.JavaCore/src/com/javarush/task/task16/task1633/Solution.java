@@ -13,11 +13,15 @@ public class Solution {
         Thread threadA = new Thread(commonThread, "Нить 1");
         Thread threadB = new Thread(commonThread, "Нить 2");
 
+        threadA.setUncaughtExceptionHandler(handler);
+        threadB.setUncaughtExceptionHandler(handler);
+
         threadA.start();
         threadB.start();
 
         threadA.interrupt();
         threadB.interrupt();
+        commonThread.interrupt();
     }
 
     public static class TestedThread extends Thread {
