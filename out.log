@@ -13139,3 +13139,24 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2022-02-06 17:31:08 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
 2022-02-06 17:31:08 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
 2022-02-06 17:31:08 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-02-06 18:55:04 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-06 18:55:05 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-02-06 19:35:34 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-06 19:35:35 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-02-06 19:35:36 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-02-06 19:35:36 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Programming/openjfx-17.0.0.1_windows-x64_bin-sdk/JavaRushTasks/2.JavaCore/src/com/javarush/task/task17/task1710
+2022-02-06 22:21:33 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-06 22:21:34 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-06 22:21:35 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-02-06 22:21:36 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-06 22:21:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-06 22:21:54 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-02-06 22:21:55 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-02-06 22:21:55 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Programming/openjfx-17.0.0.1_windows-x64_bin-sdk/JavaRushTasks/2.JavaCore/src/com/javarush/task/task17/task1711
+2022-02-06 22:24:45 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-06 22:27:50 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-06 22:43:09 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-02-06 22:43:10 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-06 22:43:10 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-06 22:43:10 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
