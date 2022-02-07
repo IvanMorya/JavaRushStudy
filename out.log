@@ -13181,3 +13181,37 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2022-02-07 14:14:09 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
 2022-02-07 14:14:09 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
 2022-02-07 14:14:09 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-02-07 14:43:11 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-02-07 14:43:12 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-07 14:43:12 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-07 14:43:12 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-02-07 16:04:02 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-02-07 16:04:02 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.56 ----------
+
+2022-02-07 16:04:02 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-02-07 16:04:02 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-02-07 16:04:03 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-02-07 16:04:03 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-02-07 16:04:03 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-02-07 16:17:27 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-02-07 16:17:28 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-02-07 20:13:59 INFO  PluginProjectService.<init>(33) - PluginProjectService for JavaRushTasks initiated.
+2022-02-07 20:14:02 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-07 20:14:02 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-02-07 20:14:02 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-02-07 20:14:02 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.56 ----------
+
+2022-02-07 20:14:02 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.56 ----------
+
+2022-02-07 20:14:02 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-02-07 20:14:02 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-02-07 20:14:02 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-02-07 20:14:02 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-02-07 20:14:02 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-02-07 20:14:02 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-02-07 20:14:02 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-02-07 20:14:02 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-02-07 20:14:02 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-02-07 20:14:02 INFO  ApacheHttpClient.startGA(36) - GAService started.
