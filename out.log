@@ -13160,3 +13160,24 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2022-02-06 22:43:10 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2022-02-06 22:43:10 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2022-02-06 22:43:10 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-02-07 08:04:53 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-02-07 08:04:53 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.56 ----------
+
+2022-02-07 08:04:53 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-02-07 08:04:53 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-02-07 08:04:53 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-02-07 08:04:53 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-02-07 11:17:23 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-07 13:42:18 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-02-07 13:42:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-07 13:42:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-07 13:42:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-07 13:42:19 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-02-07 14:14:08 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-02-07 14:14:08 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.56 ----------
+
+2022-02-07 14:14:08 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-02-07 14:14:09 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-02-07 14:14:09 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-02-07 14:14:09 INFO  ApacheHttpClient.startGA(36) - GAService started.
