@@ -1,6 +1,5 @@
 package com.javarush.task.task17.task1713;
 
-
 import java.util.*;
 
 /* 
