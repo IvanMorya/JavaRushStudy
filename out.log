@@ -13403,3 +13403,60 @@ com.homework.plugin.analytics.PluginWarningException: warning
 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2022-02-08 13:24:17 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-08 13:24:17 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-02-08 13:24:25 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-02-08 13:24:25 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Programming/openjfx-17.0.0.1_windows-x64_bin-sdk/JavaRushTasks/2.JavaCore/src/com/javarush/task/task17/task1717
+2022-02-08 13:37:20 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-08 13:37:21 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-08 13:37:23 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-02-08 13:38:03 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-08 13:38:04 INFO  ApacheHttpClient.resetTask(324) - responseCode = 200
+2022-02-08 13:38:04 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-08 13:38:05 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-02-08 13:38:20 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-08 13:38:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-08 13:38:22 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-02-08 13:38:22 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-08 13:39:20 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-08 13:39:32 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-08 13:39:32 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-02-08 13:39:37 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-02-08 13:39:37 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Programming/openjfx-17.0.0.1_windows-x64_bin-sdk/JavaRushTasks/2.JavaCore/src/com/javarush/task/task17/task1720
+2022-02-08 13:48:33 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-08 13:48:34 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-08 13:48:37 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-02-08 13:48:37 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-08 13:48:48 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-08 13:49:14 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-08 13:49:18 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-02-08 13:49:18 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-08 13:49:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-08 13:49:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-08 13:49:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-08 13:49:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-08 13:49:19 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-02-08 13:49:42 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-02-08 13:49:42 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.56 ----------
+
+2022-02-08 13:49:42 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-02-08 13:49:42 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-02-08 13:49:42 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-02-08 13:49:42 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-02-08 13:49:53 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-08 13:50:11 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-08 13:50:16 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-02-08 13:50:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-08 13:50:17 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-02-08 13:50:33 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-02-08 13:50:33 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.56 ----------
+
+2022-02-08 13:50:33 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-02-08 13:50:33 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-02-08 13:50:33 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-02-08 13:50:33 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-02-08 13:50:33 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-02-08 13:50:38 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-08 13:51:05 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
