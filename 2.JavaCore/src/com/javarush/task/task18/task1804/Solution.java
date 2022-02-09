@@ -19,24 +19,27 @@ public class Solution {
         FileInputStream fileInputStream = new FileInputStream(fileName);
         ArrayList<Integer> listBytes = new ArrayList<>();
         while (fileInputStream.available() > 0) {
-            listBytes.add(fileInputStream.read());
+            int a = fileInputStream.read();
+            System.out.print(a + ", ");
+            listBytes.add(a);
+
         }
         fileInputStream.close();
-        Map<Integer, Integer> objectObjectMap = new HashMap<>();
-        for (Integer intByte : listBytes) {
-            int currentByte = intByte;
-            int countByte = 0;
-            for (Integer integer : listBytes) {
-                if (currentByte == integer) {
-                    countByte++;
-                }
-            }
-            objectObjectMap.put(currentByte, countByte);
-        }
-        for (Map.Entry<Integer, Integer> entry : objectObjectMap.entrySet()) {
-            if (entry.getValue() < 2) {
-                System.out.print(entry.getKey() + " ");
-            }
-        }
+//        Map<Integer, Integer> objectObjectMap = new HashMap<>();
+//        for (Integer intByte : listBytes) {
+//            int currentByte = intByte;
+//            int countByte = 0;
+//            for (Integer integer : listBytes) {
+//                if (currentByte == integer) {
+//                    countByte++;
+//                }
+//            }
+//            objectObjectMap.put(currentByte, countByte);
+//        }
+//        for (Map.Entry<Integer, Integer> entry : objectObjectMap.entrySet()) {
+//            if (entry.getValue() < 2) {
+//                System.out.print(entry.getKey() + " ");
+//            }
+//        }
     }
 }

@@ -13,13 +13,15 @@ public class Solution {
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String filename = null;
+        ArrayList<Integer> list = new ArrayList<>();
         try {
             filename = reader.readLine();
             reader.close();
             FileInputStream fileInputStream = new FileInputStream(filename);
             while (fileInputStream.available() > 0) {
-                fileInputStream.read();
+
             }
+            fileInputStream.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
