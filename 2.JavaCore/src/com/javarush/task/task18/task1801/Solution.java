@@ -10,5 +10,17 @@ import java.io.InputStreamReader;
 
 public class Solution {
     public static void main(String[] args) throws Exception {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        FileInputStream fileInputStream = new FileInputStream(reader.readLine());
+        int minByte = Integer.MIN_VALUE;
+        while (fileInputStream.available() > 0) {
+            int currentByte = fileInputStream.read();
+            if (currentByte > minByte) {
+                minByte = currentByte;
+            }
+        }
+        reader.close();
+        fileInputStream.close();
+        System.out.println(minByte);
     }
 }
