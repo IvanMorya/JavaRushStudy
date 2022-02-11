@@ -13929,3 +13929,5 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2022-02-11 17:21:39 INFO  ApacheHttpClient.completed(32) - responseCode = 200
 2022-02-11 17:21:40 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2022-02-11 17:22:10 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-11 17:24:05 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-11 17:24:05 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
