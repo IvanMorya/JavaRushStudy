@@ -4,9 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
 
 /* 
 Самые редкие байты
@@ -16,30 +13,21 @@ public class Solution {
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String fileName = reader.readLine();
-        FileInputStream fileInputStream = new FileInputStream(fileName);
-        ArrayList<Integer> listBytes = new ArrayList<>();
-        while (fileInputStream.available() > 0) {
-            int a = fileInputStream.read();
-            System.out.print(a + ", ");
-            listBytes.add(a);
 
+        int[] byteCountArray = new int[256];
+        try (FileInputStream fileInputStream = new FileInputStream(fileName)) {
+            while (fileInputStream.available() > 0) {
+                byteCountArray[fileInputStream.read()] += 1;
+            }
         }
-        fileInputStream.close();
-//        Map<Integer, Integer> objectObjectMap = new HashMap<>();
-//        for (Integer intByte : listBytes) {
-//            int currentByte = intByte;
-//            int countByte = 0;
-//            for (Integer integer : listBytes) {
-//                if (currentByte == integer) {
-//                    countByte++;
-//                }
-//            }
-//            objectObjectMap.put(currentByte, countByte);
-//        }
-//        for (Map.Entry<Integer, Integer> entry : objectObjectMap.entrySet()) {
-//            if (entry.getValue() < 2) {
-//                System.out.print(entry.getKey() + " ");
-//            }
-//        }
+        int minCount = Integer.MAX_VALUE;
+        for (int byteCount : byteCountArray) {
+            if (byteCount > 0 && byteCount < minCount) minCount = byteCount;
+        }
+        ArrayList<Integer> resultList = new ArrayList<>();
+        for (int i = 0; i < byteCountArray.length; i++) {
+            if (byteCountArray[i] == minCount) resultList.add(i);
+        }
+        for (Integer resultItem : resultList) System.out.print(resultItem + " ");
     }
 }
