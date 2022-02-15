@@ -15,30 +15,23 @@ public class Solution {
         String identificationKey = args[0];
         String fileName = args[1];
         String fileOutputName = args[2];
-        FileInputStream fileInputStream = null;
-        FileOutputStream fileOutputStream = null;
-        try {
-            fileInputStream = new FileInputStream(fileName);
-            fileOutputStream = new FileOutputStream(fileOutputName);
-            switch (identificationKey) {
-                case "-e":
-                    while (fileInputStream.available() > 0) {
-                        int currentByte = fileInputStream.read();
-                        fileOutputStream.write(currentByte*2);
-                    }
-                    break;
-                case "-d":
-                    while (fileInputStream.available() > 0) {
-                        int currentByte = fileInputStream.read();
-                        fileOutputStream.write(currentByte/2);
-                    }
-                    break;
-            }
-            fileInputStream.close();
-            fileOutputStream.close();
-        } catch (IOException e) {
-            e.printStackTrace();
+        FileInputStream fileInputStream = new FileInputStream(fileName);
+        FileOutputStream fileOutputStream = new FileOutputStream(fileOutputName);
+        switch (identificationKey) {
+            case "-e":
+                while (fileInputStream.available() > 0) {
+                    int currentByte = fileInputStream.read();
+                    fileOutputStream.write(currentByte*2);
+                }
+                break;
+            case "-d":
+                while (fileInputStream.available() > 0) {
+                    int currentByte = fileInputStream.read();
+                    fileOutputStream.write(currentByte/2);
+                }
+                break;
         }
-
+        fileInputStream.close();
+        fileOutputStream.close();
     }
 }
