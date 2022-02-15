@@ -59,7 +59,7 @@ public class Solution {
     private static void waitAMoment() {
         try {
             Thread.sleep(100);
-        } catch (InterruptedException e) {
+        } catch (InterruptedException ignored) {
         }
     }
 }
