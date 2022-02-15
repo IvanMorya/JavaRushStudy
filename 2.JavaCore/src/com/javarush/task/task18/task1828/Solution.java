@@ -32,8 +32,8 @@ public class Solution {
                     switch (args[0]) {
                         case "-u":
                             String productName = "";
-                            for (int i = 3; i < args.length - 2; i++) {
-                                productName += args[i];
+                            for (int i = 2; i < args.length - 2; i++) {
+                                productName += args[i] + " ";
                             }
                             product.setProductName(productName);
                             product.setPrice(args[args.length - 2]);
@@ -46,7 +46,7 @@ public class Solution {
             }
             BufferedWriter writerToFile = new BufferedWriter(new FileWriter(fileName));
             for (Product product : products) {
-                writerToFile.write(product.toString());
+                writerToFile.write(product.toString() + "\n");
             }
             writerToFile.close();
 
