@@ -28,7 +28,7 @@ public class Solution {
             fileReader = new BufferedReader(new FileReader(fileName));
             while (fileReader.ready()) {
                 String product = fileReader.readLine();
-                if (product.startsWith(args[0])) {
+                if (product.startsWith(args[0] + " ")) {
                     System.out.println(product);
                 }
             }
