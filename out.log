@@ -15698,3 +15698,55 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2022-02-20 14:09:32 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2022-02-20 14:09:35 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2022-02-20 14:09:37 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-02-20 15:58:42 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 15:58:42 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 15:58:49 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 15:58:49 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 16:00:09 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 16:00:10 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 16:06:20 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 16:07:32 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 16:11:07 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 16:22:17 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 16:22:17 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 16:22:19 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-02-20 16:22:59 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 16:22:59 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 16:23:01 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-02-20 16:23:46 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 16:23:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 16:45:59 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 16:46:00 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 16:46:01 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-02-20 16:47:09 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 16:47:10 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 16:47:12 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-02-20 16:48:38 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 16:48:38 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 16:48:41 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-02-20 16:49:06 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 16:49:06 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 16:49:08 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-02-20 16:49:41 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 16:49:42 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 16:49:44 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-02-20 16:49:44 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 16:50:02 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 16:50:16 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 16:50:31 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-02-20 16:50:37 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-02-20 16:50:37 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 16:50:37 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 16:50:37 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 16:50:38 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 16:50:38 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-02-20 16:50:38 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-02-20 16:50:53 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-02-20 16:50:53 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.56 ----------
+
+2022-02-20 16:50:54 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-02-20 16:50:54 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-02-20 16:50:54 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-02-20 16:50:54 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-02-20 17:05:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
