@@ -23,7 +23,13 @@ public class Solution {
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName1));
              BufferedWriter writer = new BufferedWriter(new FileWriter(fileName2))) {
             while (reader.ready()) {
-                writer.write(reader.read());
+                String s = reader.readLine();
+                String[] result = s.split(" ");
+                for (String s1 : result) {
+                    if (s1.matches("^\\d+$")) {
+                        writer.write(s1 + " ");
+                    }
+                }
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
