@@ -1,4 +1,0 @@
-# MyStudy
-"# JavaStudy" 
-"# JavaStudy" 
-"# JavaStudy" 
