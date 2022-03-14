@@ -16297,3 +16297,31 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2022-03-14 12:25:53 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2022-03-14 12:25:54 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
 2022-03-14 12:25:54 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Users/moryi/IdeaProjects/JavaRushTasks/2.JavaCore/src/com/javarush/task/task19/task1926
+2022-03-14 14:29:05 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-03-14 14:29:06 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-03-14 14:29:08 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-03-14 14:31:22 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-03-14 14:31:23 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-03-14 14:31:25 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-03-14 14:43:15 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-03-14 14:43:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-03-14 14:43:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-03-14 14:43:16 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-03-14 14:43:16 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-03-14 14:43:35 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-03-14 14:43:35 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.56 ----------
+
+2022-03-14 14:43:35 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-03-14 14:43:35 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-03-14 14:43:35 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-03-14 14:43:36 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-03-14 14:47:29 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-03-14 14:47:29 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-03-14 14:47:33 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-03-14 14:47:33 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-03-14 14:47:41 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-03-14 14:51:47 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-03-14 14:51:47 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-03-14 14:51:49 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-03-14 14:51:49 INFO  TaskInfoSelectorMouseListener.createDirectoryRecursive(77) - File created :C:/Users/moryi/IdeaProjects/JavaRushTasks/2.JavaCore/src/com/javarush/task/task19/task1927
