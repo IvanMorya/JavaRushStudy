@@ -1,5 +1,6 @@
 package com.javarush.task.task20.task2004;
 
+
 import java.io.*;
 
 /* 
@@ -29,6 +30,7 @@ public class Solution {
 
             loadedObject.load(inputStream);
             //here check that the classWithStatic object is equal to the loadedObject object - проверьте тут, что classWithStatic и loadedObject равны
+            System.out.println(loadedObject.equals(classWithStatic));
 
             outputStream.close();
             inputStream.close();
@@ -49,10 +51,19 @@ public class Solution {
 
         public void save(OutputStream outputStream) throws Exception {
             //implement this method - реализуйте этот метод
+            PrintWriter printWriter = new PrintWriter(outputStream);
+            printWriter.println(staticString);
+            printWriter.println(this.i);
+            printWriter.println(this.j);
+            printWriter.close();
         }
 
         public void load(InputStream inputStream) throws Exception {
-            //implement this method - реализуйте этот метод
+            BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+            staticString = reader.readLine();
+            this.i = Integer.parseInt(reader.readLine());
+            this.j = Integer.parseInt(reader.readLine());
+            reader.close();
         }
 
         @Override
