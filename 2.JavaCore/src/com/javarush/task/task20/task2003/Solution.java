@@ -14,11 +14,18 @@ public class Solution {
     public static Map<String, String> runtimeStorage = new HashMap<>();
 
     public static void save(OutputStream outputStream) throws Exception {
-        //напишите тут ваш код
+        Properties properties = new Properties();
+        properties.putAll(runtimeStorage);
+        properties.store(outputStream, null);
     }
 
     public static void load(InputStream inputStream) throws IOException {
-        //напишите тут ваш код
+        Properties properties = new Properties();
+        properties.load(inputStream);
+
+        for (Map.Entry<Object, Object> pair : properties.entrySet()) {
+            runtimeStorage.put(pair.getKey().toString(), pair.getValue().toString());
+        }
     }
 
     public static void main(String[] args) {
