@@ -15,6 +15,9 @@ public class Solution {
     public static List<LineItem> lines = new ArrayList<>();
 
     public static void main(String[] args) throws Exception {
+
+
+
         BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
         String oldFileName = console.readLine();
         String newFileName = console.readLine();
