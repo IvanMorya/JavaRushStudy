@@ -16706,3 +16706,27 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2022-03-19 23:41:14 INFO  ApacheHttpClient.resetTask(324) - responseCode = 200
 2022-03-19 23:41:14 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2022-03-19 23:41:15 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-03-20 00:01:42 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-03-20 00:01:43 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-03-20 00:01:43 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-03-20 00:01:43 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-03-20 00:01:43 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-03-20 00:01:44 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-03-20 00:01:44 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-03-20 00:01:44 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-03-20 06:38:33 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-03-20 06:38:33 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.56 ----------
+
+2022-03-20 06:38:33 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-03-20 06:38:33 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-03-20 06:38:33 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-03-20 06:38:34 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-03-20 11:17:45 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-03-20 11:17:46 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-03-20 11:23:47 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-03-20 11:23:48 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-03-20 11:23:48 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-03-20 11:23:49 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-03-20 11:35:08 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-03-20 11:35:08 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
